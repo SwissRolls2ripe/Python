@@ -13,5 +13,6 @@ def Cal_Math(num1, num2, Caluator, formater):
 
 # Cal_Math(3, 2, lambda num1, num2: num1 * num2, Print_Math)
 
-print((lambda num1, num2: num1 * num2)(2,3))
+# print((lambda num1, num2: num1 * num2)(2,3))
+Cal_Math(3, 2, Cal_Sum, Print_Math)
 
